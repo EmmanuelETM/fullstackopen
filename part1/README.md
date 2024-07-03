@@ -1,3 +1,5 @@
 ### Emmanuel Torres Malena | 2021-1097
 
-[ex_1](./ex_1)
+a. [Introduccion a React](./ex_1)
+b. [Javascript](./ex_2)
+c. [Component State](./ex_3)
