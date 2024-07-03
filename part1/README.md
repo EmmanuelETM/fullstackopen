@@ -3,4 +3,7 @@
 a. [Introduccion a React](./ex_1)
 
 b. [Javascript](./ex_2)
-c. [Component State](./ex_3)
+
+c. [Component State, Event Handlers](./ex_3)
+
+d. [a More complex state, debugging React Apps](./)
