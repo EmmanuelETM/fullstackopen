@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Block from './Block';
+import Block from './block';
 
 const App = () => (
   <div>
