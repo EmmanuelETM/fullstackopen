@@ -3,9 +3,10 @@ const Button = (props) => {
 
     return (
         <button
+            className="w-full p-2 bg-blue-600 text-white font-semibold rounded-lg "
             type={type} 
             onClick={() => onClick()} 
-            className=""
+            
         >
             {text}
         </button>

@@ -20,10 +20,11 @@ function App() {
 
 
   return (
-    <div className=''>
+    <div className='bg-neutral-200 min-h-screen h-full flex flex-col items-center justify-center'>    
       <h1 className=''>Login</h1>
       <LoginForm handleSubmit={handleSubmit} handleChange={handleChange} data={data}/>
     </div>
+
   )
 }
 

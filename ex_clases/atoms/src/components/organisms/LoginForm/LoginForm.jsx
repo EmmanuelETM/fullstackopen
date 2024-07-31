@@ -13,11 +13,11 @@ const LoginForm = (props) => {
 
     return (
     <form 
-        className="" 
+        className="bg-white rounded-lg p-5 shadow-lg" 
         onSubmit={handleSubmit}
     >
         <InputField
-            label="Usuario"
+            text="Usuario"
             type="text"
             placeholder="Ingrese su usuario"
             value={username}
@@ -25,14 +25,14 @@ const LoginForm = (props) => {
             name="username"
         />
         <InputField
-            label="Contraseña"
+            text="Contraseña"
             type="password"
             placeholder="Ingrese su contraseña"
             value={password}
             onChange={handleChange}
             name="password"
         />
-        <Button type="submit">Iniciar Sesión</Button>
+        <Button type="submit" onClick={() => {}} text="Log In"/>
     </form>
  )
 }
