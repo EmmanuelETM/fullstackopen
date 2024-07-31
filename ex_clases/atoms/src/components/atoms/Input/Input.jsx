@@ -5,6 +5,8 @@ const Input = (props) => {
         <input
             className="mb-4 p-2 border border-black rounded-md w-full "
             type={type}
+            value={value}
+            onChange={event => onChange(event)}
             name={name}
         />
     )

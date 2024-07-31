@@ -6,7 +6,8 @@ const InputField = (props) => {
     const { 
         text, 
         type, 
-        placeholder,
+        value,
+        onChange,
         name 
     } = props
 
@@ -15,7 +16,8 @@ const InputField = (props) => {
             <Label text={text} />
             <Input 
                 type={type}
-                placeholder={placeholder}
+                value={value}
+                onChange={onChange}
                 name={name}
             />
         </div>
