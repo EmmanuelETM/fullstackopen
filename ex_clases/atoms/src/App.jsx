@@ -1,14 +1,29 @@
 import { useState } from 'react'
+import LoginForm from './components/organisms/LoginForm/LoginForm'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [data, setData] = useState({
+    username: '',
+    password: '',
+  })
+
+  const handleChange = (event) => {
+      const { name, value } = event.target
+      setData({...data, [name]: value})
+  }
+
+  const handleSubmit = (event) => {
+      event.preventDefault();
+      console.log('Inicio de Sesion: ', data)
+  }
+
 
   return (
-    <>
-      <div>
-        <h1>Atom exercise</h1>
-      </div>
-    </>
+    <div className=''>
+      <h1 className=''>Login</h1>
+      <LoginForm handleSubmit={handleSubmit} handleChange={handleChange} data={data}/>
+    </div>
   )
 }
 
